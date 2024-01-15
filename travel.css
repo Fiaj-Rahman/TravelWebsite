@@ -1,0 +1,679 @@
+/* Page Layout Setting */
+*{
+    font-family: 'Mulish', sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.maindiv
+{
+    max-width: 1340px;
+    margin: 0 auto;
+    
+}
+
+
+/* Header Section Start Now */
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: 50px;
+}
+
+.logo
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo span{
+    color: red;
+}
+
+
+
+/* Hamber */
+.hamber img
+{
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
+
+
+/* manubar  */
+
+.manubar{
+    margin-top: 10px;
+    align-items: center;
+}
+.manubar>ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 44px;
+    font-size: 1.1rem;
+    align-items: center;
+    
+}
+
+.color{
+    text-decoration: none;
+    color: #424247;
+}
+
+.red{
+    color: red;
+    text-decoration: none;
+}
+
+
+
+
+
+/* banner start now */
+
+.banner
+{
+    height: 500px;
+    background-image:url("./Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    
+}
+
+
+.bannerOne{
+    text-align: center;
+    padding-top: 105px;
+    width: 50%;
+    margin:auto;
+    color: white;
+}
+
+.bannerOne h1{
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.bannerOne p{
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+
+
+/* .bannerTwo
+{
+    padding-top: 48px;
+    display: flex;
+    width: 800px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.30);
+    margin: 0 auto;
+    justify-content: space-around;
+    gap: 50px;
+} */
+
+form 
+{
+    display: flex;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.30);
+    margin: 48px auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    /* padding-top: 0px; */
+    border-radius: 10px;
+    text-align: center;
+}
+
+button img
+{
+    width: 20px;
+    height: 15px;
+}
+
+button
+{
+    background-color: red;
+    width: 174px;
+    height: 52px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+
+input
+{
+    width: 174px;
+    height: 52px;
+    border-radius: 10px;
+}
+
+select
+{
+    width: 174px;
+    height: 52px;
+    border-radius: 10px;
+}
+
+
+
+/* Now start Main */
+
+/* section ONe */
+
+.secOne
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.secOneFirst
+{
+    width: 50%;
+}
+
+.secOneFirst h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.secOneFirst p{
+    padding-top: 24px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.70);
+}
+
+.secOneFirst ul{
+    padding-top: 24px;
+    padding-left: 50px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.70);
+}
+
+.secOneFirst button{
+    margin-top: 24px;
+    background-color: red;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+}
+.secOneSecond img{
+    width: 100%;
+}
+
+
+/* section Two */
+
+
+.secTwoOne
+{
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+    padding-top: 100px;
+}
+
+.secTwoOne h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.secTwoOne p{
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 20px;
+}
+
+.secTwoTwo{
+    display: flex;
+}
+
+.Maldives{
+    background-image: url("./Images/Rectangle\ 5.png");
+    width: 49%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.Maldives h3{
+    
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 150px;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.Indonesia{
+    background-image: url("./Images/Rectangle\ 8.png");
+    width: 49%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 24px;
+}
+
+.Indonesia h3{
+    
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 150px;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.secTwoThree{
+    display: flex;
+    padding-top: 24px;
+}
+
+.Srilanka{
+    background-image: url("./Images/Rectangle\ 6.png");
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 10px;
+    
+}
+
+.Srilanka h3{
+    
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 150px;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+
+
+.North{
+    background-image: url("./Images/Rectangle\ 7.png");
+    width: 45%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 24px;
+}
+
+.North h3{
+    
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 150px;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+
+
+.Kashmir{
+    background-image: url("./Images/Rectangle\ 9.png");
+    width: 23%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 24px;
+}
+
+.Kashmir h3{
+    
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 150px;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.secTwoFour{
+    display: flex;
+    padding-top: 24px;
+}
+
+.Bangladesh{
+    background-image: url("./Images/Rectangle\ 11.png");
+    width: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 24px;
+}
+
+.Bangladesh h3{
+    
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 150px;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+
+
+
+.Bandarban{
+    background-image: url("./Images/Rectangle\ 10.png");
+    width: 59%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 24px;
+}
+
+.Bandarban h3{
+    
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 150px;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.secThreeOne{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 100px;
+    
+}
+
+.secThreeOne h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.secThreeOne p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 20px;
+}
+
+
+.secThreeTwo
+{
+    display: flex;
+    margin-top:50px;
+}
+
+.hotel{
+    width: 49%;
+    background-color: rgba(251, 181, 99, 0.05);
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    border-radius:10px;
+}
+.hotel img{
+    width: 64px;
+    height: 64px;
+}
+
+.hotel h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.hotel p{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 26px;
+}
+
+.location{
+    width: 49%;
+    background-color: rgba(251, 181, 99, 0.05);
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    border-radius:10px;
+    margin-left: 20px;
+}
+
+.location img{
+    width: 64px;
+    height: 64px;
+}
+
+.location h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.location p{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 26px;
+}
+
+
+
+
+.secThreeThree{
+    width: 49%;
+    background-color: rgba(251, 181, 99, 0.05);
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    border-radius:10px;
+    margin: 20px auto;
+}
+
+.secThreeThree img{
+    width: 64px;
+    height: 64px;
+}
+
+.secThreeThree h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.secThreeThree p{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Mobile */
+
+@media only screen and (max-width: 600px) {
+.maindiv{
+    padding: 20px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.manubar>ul{
+    display: none;
+    /* font-size: 0.7rem; */
+    gap: 20px;
+}
+
+
+.hamber img{
+   display: inline-block;
+    margin-left: 381px;
+    position: absolute;
+    margin-top: -43px;
+}
+
+.hamber img:hover .manubar>ul{
+    display: inline-block;
+}
+
+
+form{
+    flex-direction: column;
+    padding: Opx;
+    margin: 0px auto;
+    gap: 10px;
+}
+
+.bannerOne{
+    width: 90%;
+    margin: 0px auto;
+   
+}
+.bannerOne h1{
+    font-size: 22px;
+}
+.bannerOne p{
+    font-size: 14px;
+}
+
+.secOne{
+    flex-direction: column;
+}
+.secOneFirst{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.secOneSecond{
+    margin-top: 40px;
+}
+.Maldives{
+    width: 100%;
+    margin-bottom: 16px;
+}
+.Indonesia{
+    width: 100%;
+    margin-bottom: 16px;
+    margin-left: 0px;
+}
+.Srilanka{
+    width: 100%;
+    margin-bottom: 16px;
+    margin-left: 0px;
+}
+.North{
+    width: 100%;
+    margin-bottom: 16px;
+    margin-left: 0px;
+}
+.Kashmir{
+    width: 100%;
+    margin-bottom: 16px;
+    margin-left: 0px;
+}
+.Bangladesh{
+    width: 100%;
+    margin-bottom: 16px;
+    margin-left: 0px;
+}
+.Bandarban{
+    width: 100%;
+    margin-bottom: 16px;
+    margin-left: 0px;
+}
+
+
+.secTwoTwo
+{
+    flex-direction: column;
+}
+
+.secTwoThree
+{
+    flex-direction: column;
+}
+.secTwoFour
+{
+    flex-direction: column;
+}
+.secThreeOne{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.secThreeTwo{
+    flex-direction: column;
+    
+}
+.location{
+    width: 90%;
+    margin: 10px auto;
+    padding: 0px;
+}
+.hotel{
+    width: 90%;
+    margin: 10px auto; 
+    padding: 0px;
+}
+.secThreeThree{
+    width: 90%;
+    margin: 10px auto;
+    padding: 0px;
+    
+}
+
+
+
+
+}
+
+
+
+
