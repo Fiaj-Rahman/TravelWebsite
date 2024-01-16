@@ -526,7 +526,7 @@ select
 
 .secFour{
     display: flex;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 40px;
 }
 
@@ -609,6 +609,7 @@ select
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
 }
 
 .secFiveOne{
@@ -645,6 +646,189 @@ select
     padding-top: 10px;
 }
 
+/* Section deal and discounts */
+
+.deal{
+    width:100%;
+    height: 1800px;
+}
+
+.dealTitle{
+    margin:100px auto;
+    width: 70%;
+    text-align: center;
+}
+.dealTitle h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    
+}
+
+.dealTitle p{
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 30px;
+}
+
+.satorini{
+    width: 100%;
+    height: 500px;
+    margin: 10px auto;
+    border: 2px solid red;
+    background-image: url("./Images/Group\ 39.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 10px;
+}
+
+.satorini img{
+    width: 20px;
+    height: 20px;
+    display: flex;
+}
+
+.icons{
+    width: 50%;
+    height: 75%;
+    background-color: rgba(255, 255, 255, 0.50);
+    
+    margin: auto 75px;
+    border-radius: 10px;
+}
+
+.icons div{
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    color: #131318;
+    gap: 10px;
+    font-weight: 400;
+}
+
+.icons img{
+    border-radius: 50%;
+}
+.iconsOne{
+    display: flex;
+    gap: 30px;
+}
+
+
+.Alltitle
+{
+    flex-direction: column;
+    width: 75%;
+    padding-left: 30px;
+}
+
+.Alltitle h2{
+    font-weight: 800;
+    font-size: 24px;
+    color: #131318;
+}
+
+.Alltitle p{
+    color: #5A5A5D;
+    line-height: 26px;
+    margin-top: 10px;
+}
+
+.Alltitle h4{
+    color: red;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.Alltitle button{
+    background-color: red;
+    border-radius: 8px;
+    width: 150px;
+    height: 52px;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.satorinis{
+    width: 100%;
+    height: 500px;
+    margin: 20px auto;
+    border: 2px solid red;
+    background-image: url("./Images/Group\ 40.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 10px;
+}
+
+
+.satorinis img{
+    width: 20px;
+    height: 20px;
+    display: flex;
+}
+
+.packbtn{
+    width: 210px;
+    height: 52px;
+    color: white;
+    text-align: center;
+    margin: 15px auto;
+    
+}
+.packbtn button{
+    border: none;
+}
+
+
+/* section video */
+.addVideo{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 20px; */
+    margin-top: 100px;
+}
+
+.addVideo .title{
+    width: 49%;
+}
+
+.addVideo title h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.addVideo p{
+    
+    margin-top: 24px;
+    color: #5A5A5D;
+    line-height: 26px;
+}
+.addVideo li{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.btns{
+    width: 174px;
+    height: 52px;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+
+
 
 
 
@@ -658,6 +842,7 @@ footer{
     height: 600px;
     background-color: rgba(19, 19, 24, 0.05);
     border-radius: 10px;
+    margin-top: 20px;
 }
 
 .footerOne
@@ -739,6 +924,19 @@ footer{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive Mobile */
 
 @media only screen and (max-width: 600px) {
@@ -759,7 +957,7 @@ footer{
 
 .hamber img{
    display: inline-block;
-    margin-left: 381px;
+    margin-left: 320px;
     position: absolute;
     margin-top: -43px;
 }
@@ -783,9 +981,13 @@ form{
 }
 .bannerOne h1{
     font-size: 22px;
+    color: #a93535;
+    margin-top: -50px;
 }
 .bannerOne p{
     font-size: 14px;
+    color: black;
+    margin-bottom: 10px;
 }
 
 .secOne{
@@ -835,6 +1037,13 @@ form{
     margin-left: 0px;
 }
 
+.secTwoOne p {
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
 
 .secTwoTwo
 {
@@ -878,10 +1087,11 @@ form{
 
 .secFour{
     flex-direction: column;
+    margin-top: -190px;
 }
 .formfillup{
     width: 75%;
-    margin-top: 20px;
+    margin-top: 140px;
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -901,7 +1111,7 @@ form{
 
 .formfillup input{
     padding: 0px 7px;
-    width: 277px;
+    width: 250px;
 }
 
 .saveUp{
@@ -913,7 +1123,7 @@ form{
     border-radius: 10px;
     position: relative;
     rotate: -24deg;
-    margin-left: 154px;
+    margin-left: 50px;
     margin-top: 165px;
 }
 
@@ -921,15 +1131,116 @@ form{
     padding-top: 20px;
 }
 .secFive{
-    height: 800px;
+    height: 900px;
     margin-bottom: 20px;
 }
 .secFiveTwo{
     flex-direction: column;
-    margin: 125px;
+    margin-left: 125px;
+    margin-top: 60px;
     padding: 0px;
 }
 
+.secFiveTwo div{
+    border: 2px solid red;
+    background-color: red;
+    width: 75%;
+    height: 120px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: -25px;
+}
+
+
+/* deal and discount */
+.dealTitle{
+    width: 100%;
+    text-align: center;
+}
+.dealTitle h1{
+    font-size: 20px;
+}
+
+.dealTitle p{
+    font-size: 14px;
+}
+
+.satorini
+{
+    width: 100%;
+}
+
+.icons{
+    width: 75%;
+    height: 90%;
+    margin: auto 25px;
+}
+.icons div{
+    width: 90%;
+    margin: 10px;
+    padding: 0px;
+}
+.icons img{
+    width: 15px;
+    height: 15px;
+}
+
+.iconsOne{
+    flex-direction: column;
+    padding: 0px;
+    
+}
+
+.Alltitle h2
+{
+   font-size: 18px;
+}
+
+.Alltitle p{
+    font-size: 14px;
+}
+
+.Alltitle h4{
+    font-size: 16px;
+    margin-top: -10px;
+}
+
+.Alltitle button{
+    width: 130px;
+    height: 30px;
+    font-size: 18px;
+}
+
+.packbtn{
+    margin:20px auto;
+    width: 210px;
+    height: 52px;
+}
+
+
+/* Video */
+.addVideo{
+    flex-direction: column;
+    width: 100%;
+    margin: 100px auto;
+    height: 800px;
+}
+
+.addVideo .title {
+    width: 100%;
+}
+
+.videos {
+    width: 100%;
+}
+
+.videos iframe{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: -50px;
+}
+/* footers */
 
 .footerOne{
     padding: 30px;
